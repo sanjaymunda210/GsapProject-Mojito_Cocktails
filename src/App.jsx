@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
-import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
@@ -11,7 +10,7 @@ const app = () => {
     <main>
       <Navbar />
       <Hero />
-      {<div className="h-dvh bg-black"></div> /* temporary div */}
+      {/* <div className="h-dvh bg-black"></div> */} {/* temporary div */}
     </main>
   );
 };
